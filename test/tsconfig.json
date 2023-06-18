@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "./exports",
+    "declaration": true,
+    "moduleResolution": "nodenext",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true,
+    "types": [
+      "rollup"
+    ]
+  },
+  "include": [
+    "./test-element.ts"
+  ],
+  "exclude": ["./node_modules"]
+}
